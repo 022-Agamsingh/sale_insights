@@ -1,4 +1,5 @@
-📊 Sales Insights Dashboard using Power BI
+##📊 Sales Insights Dashboard using Power BI
+
 This is a self-initiated data analytics project designed to demonstrate the ability to extract, analyze, and visualize business data using Power BI. The goal was to deliver a clear view of sales performance and help stakeholders make data-driven decisions.
 
 🧠 Problem Statement
