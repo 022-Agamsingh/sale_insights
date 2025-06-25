@@ -1,107 +1,102 @@
-##📊 Sales Insights Dashboard using Power BI
+# 📊 Sales Insights Dashboard using Power BI
 
-This is a self-initiated data analytics project designed to demonstrate the ability to extract, analyze, and visualize business data using Power BI. The goal was to deliver a clear view of sales performance and help stakeholders make data-driven decisions.
+A self-driven data analytics project focused on analyzing business performance using Power BI and SQL. The goal was to transform raw data into actionable insights through an interactive dashboard.
 
-🧠 Problem Statement
-AtliQ Hardware is a company that supplies computer hardware and peripherals across various regions in India. The sales director has been struggling to understand business performance due to:
+---
 
-Declining sales over recent years
+## 🧠 Problem Statement
 
-Lack of clear visual reports from regional managers
+**AtliQ Hardware**, a computer hardware distributor across India, faced:
 
-Overdependence on raw Excel data, which is hard to interpret
+- Declining sales
+- Difficulty in interpreting raw Excel data
+- Inability to make data-driven decisions
 
-✅ Proposed Solution
-To address these challenges, a comprehensive Sales Dashboard was developed using Power BI, converting large and complex datasets into interactive and insightful visuals.
+---
 
-🎯 AIMS Grid Focus
-This project followed the AIMS framework to stay aligned on:
+## ✅ Solution
 
-Audience: Sales Director and Regional Managers
+Developed a **Sales Insights Dashboard** using Power BI to convert complex transactional data into easy-to-understand visuals. Enabled the sales director and regional managers to analyze performance without relying on spreadsheets.
 
-Intent: Analyze and visualize revenue, profit, and sales performance
+---
 
-Means: MySQL, Power BI, Power Query
+## 🎯 Project Planning (AIMS Grid)
 
-Success: Business users can make informed decisions quickly
+- **Audience**: Sales leadership team
+- **Intent**: Visualize sales, revenue, and profit KPIs
+- **Means**: SQL (MySQL), Power BI, Power Query
+- **Success**: Clear, visual insights for strategic decision-making
 
-🔄 Project Steps
-Defined the objective using the AIMS Grid.
+---
 
-Retrieved and connected MySQL data to Power BI.
+## 🔄 Steps Followed
 
-Cleaned and transformed the data using Power Query.
+1. Created project scope using AIMS Grid
+2. Connected MySQL database to Power BI
+3. Cleaned and transformed data using Power Query
+4. Applied DAX for KPI calculations
+5. Modeled the data with relationships and measures
+6. Handled multiple currencies via conversion logic
+7. Built interactive dashboards with slicers, charts, and tables
 
-Performed ETL operations.
+---
 
-Created measures (DAX) for key KPIs.
+## 🔧 Custom Enhancements
 
-Converted all currencies to a unified format.
+- Solved “(Blank)” product issue by adding missing products (Prod280–Prod339)
+- Merged additional fields into the `sales_transaction` table (e.g., cost price, profit margin)
 
-Validated and modeled the dataset.
+---
 
-Designed and built dashboards with intuitive visuals.
+## 📊 Key Insights
 
-🛠 Major Customizations
-Solved (blank) issue in product data by manually extending product entries (Prod280 to Prod339).
+- **Total Revenue** (4 Years): ₹985M
+- **Profit Margin**: ₹24.7M (2.5%)
+- **Sales Qty**: ₹2M
+- **Revenue in 2020**: ₹142M (350K units sold, ₹2.1M profit)
 
-Merged original and updated sales_transaction tables to include cost_price, profit_margin, etc.
+### Market Performance:
 
-📈 Key Insights
-💰 Total Revenue (4 years): ₹985M
+- **Delhi NCR**: ₹520M revenue but low margin (2.3%)
+- **Bhubaneshwar (2020)**: Highest margin (10.5%)
+- **Mumbai**: Top profit contributor (23.9%)
+- **Bengaluru**: Lowest profit margin (-20.8%)
 
-💹 Total Profit Margin: ₹24.7M (2.5%)
+### Top Customers and Products:
 
-🛍 Total Sales Qty: ₹2M
+- **Customer**: Electricalsara Stores – ₹413M revenue
+- **Product**: Prod318 – ₹69M revenue
+- **Product Type**: Distribution & Own Brand – ₹494M each
 
-Year 2020 Highlights
+---
 
-Revenue: ₹142M
+## 📈 Dashboard Screenshots
 
-Units Sold: 350K
+### KPI & Market Overview
 
-Profit: ₹2.1M
+![KPI Dashboard](./da1.png)
 
-Top Markets
+### Profitability & Market Trends
 
-Delhi NCR: ₹520M revenue (52.8%) but low margin (2.3%)
+![Performance Analysis](./DA2.png)
 
-Bhubaneshwar (2020): Highest margin (10.48%)
+### Monthly Profit Margin Breakdown
 
-Mumbai: Highest profit contribution (23.89%)
+![Profit Margin](./da3.png)
 
-Bengaluru: Lowest margin (-20.8%) and negative profit contribution (-0.3%)
+---
 
-Top Customers
+## 📚 Key Learnings
 
-Electricalsara Stores: ₹413M over 4 years
+- SQL for real-world business datasets
+- Data transformation in Power BI (Power Query)
+- DAX functions and advanced measures
+- Storytelling through dashboard design
 
-Top Products
+---
 
-Prod318: ₹69M
+## 🏁 Final Deliverables
 
-Distribution vs. Own Brand: Both generated ₹494M each
-
-Trends
-
-Major drop in revenue in June 2020
-
-Lowest profit in April 2020
-
-🧠 Key Learnings
-Understood real-world business dataset structure
-
-Wrote complex analysis queries in MySQL
-
-Connected databases to Power BI and cleaned data in Power Query
-
-Learned practical DAX measures and visualization design
-
-Developed storytelling through data dashboards
-
-📌 Final Deliverables
-KPI Overview Page
-
-Performance Insights Dashboard
-
-Profit Analysis Dashboard
+- **KPI Overview Page**
+- **Performance Insights Dashboard**
+- **Profit Margin Analysis**
