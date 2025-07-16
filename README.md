@@ -74,15 +74,15 @@ Developed a **Sales Insights Dashboard** using Power BI to convert complex trans
 
 ### KPI & Market Overview
 
-![KPI Dashboard](./da1.png)
+![KPI Dashboard](.photos/da1.png)
 
 ### Profitability & Market Trends
 
-![Performance Analysis](.photo/DA2.png)
+![Performance Analysis](.photos/DA2.png)
 
 ### Monthly Profit Margin Breakdown
 
-![Profit Margin](./da3.png)
+![Profit Margin](.photos/da3.png)
 
 ---
 
