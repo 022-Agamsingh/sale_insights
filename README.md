@@ -74,7 +74,7 @@ Developed a **Sales Insights Dashboard** using Power BI to convert complex trans
 
 ### KPI & Market Overview
 
-![KPI Dashboard](.photos/da1.png)
+![KPI Dashboard](./photos/da1.png)
 
 ### Profitability & Market Trends
 
@@ -82,7 +82,7 @@ Developed a **Sales Insights Dashboard** using Power BI to convert complex trans
 
 ### Monthly Profit Margin Breakdown
 
-![Profit Margin](.photos/da3.png)
+![Profit Margin](./photos/da3.png)
 
 ---
 
