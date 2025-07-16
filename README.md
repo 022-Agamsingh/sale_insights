@@ -78,7 +78,7 @@ Developed a **Sales Insights Dashboard** using Power BI to convert complex trans
 
 ### Profitability & Market Trends
 
-![Performance Analysis](./DA2.png)
+![Performance Analysis](.photo/DA2.png)
 
 ### Monthly Profit Margin Breakdown
 
